@@ -26,6 +26,7 @@ let arr2 = JSON.parse(amin2);
 // console.log(arr2);
 
 localStorage.setItem('devs information', amin2);
+new Result().final( JSON.parse(localStorage.getItem('student')));
 
 
 
